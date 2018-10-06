@@ -3,7 +3,7 @@ STYLEe
 ==========*/
 body{
     /*background-color: rgb(27, 27, 27);  */
-    background-color: rgb(249, 245, 234);  
+    background-color:white;  
     /*color:whitesmoke;*/
     color:rgb(33.33.33);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,7 +38,7 @@ a:hover{
 }
 #header_container{
     height: 40px;
-    background-image: url(../img/dark-triangles.png);
+    background-image: url(../img/grunge_wall/grunge_wall.png);
 }
 
 #name_container, #occupation_container, #link_container{
@@ -68,18 +68,16 @@ a:hover{
     animation-duration: 6s;
 }
 #separate_container{
-    background-image: url(../img/dark-triangles.png);
+    background-image: url(../img/grunge_wall/grunge_wall.png);
     height: 250px;
 }
 #img_container{
     position: relative;
     width: 60%;
     text-align: center;
-    margin:auto;
-    margin-top: -200px;
+   /* margin-top: -200px;*/
     animation-name: bottom_to_top_animation;
     animation-duration: 4s;
-
 }
 img{
     border-radius:20px;
@@ -94,6 +92,16 @@ a > img:hover{
 
 ul li{
     list-style-type: none;
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border:none;
+    margin-bottom: 20px;
 }
 
 /*========
@@ -142,7 +150,7 @@ footer{
         margin: 0px auto 0px auto;
     }
     #img_container{
-        margin-top: -180px;
+       /* margin-top: -180px;*/
     }
     .occupation{
         font-size: 2em;
