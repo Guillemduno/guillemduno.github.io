@@ -163,7 +163,7 @@ footer{
 @media only screen and (min-width: 768px) {
     #name_container, #occupation_container, #link_container,#separate_container, #img_container, #header_container{
         text-align: center;
-        width: 60%;
+       /* width: 60%;*/
        margin-left: auto;
        margin-right: auto;
     }
