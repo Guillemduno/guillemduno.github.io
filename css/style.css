@@ -2,9 +2,7 @@
 STYLEe
 ==========*/
 body{
-    /*background-color: rgb(27, 27, 27);  */
     background-color:white;  
-    /*color:whitesmoke;*/
     color:rgb(33.33.33);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
@@ -44,8 +42,7 @@ a:hover{
 #name_container, #occupation_container, #link_container{
     text-align: center;
     width: 65%;
-    margin: 0px auto 0px auto;
-    
+    margin: 0px auto 0px auto;   
 }
 
 #name_container{
@@ -71,23 +68,14 @@ a:hover{
     background-image: url(../img/grunge_wall/grunge_wall.png);
     height: 250px;
 }
-#img_container{
-    position: relative;
-    width: 60%;
-    text-align: center;
-   /* margin-top: -200px;*/
-    animation-name: bottom_to_top_animation;
-    animation-duration: 4s;
-}
-img{
-    border-radius:20px;
-}
+
 a > img:hover{
     opacity: 0.8;
  
 }
 .italicText{
     font-style: italic;
+    margin-top: 170px;
 }
 
 ul li{
@@ -144,13 +132,10 @@ footer{
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #name_container, #occupation_container, #link_container,#separate_container, #img_container, #header_container{
+    #name_container, #occupation_container, #link_container,#separate_container, #header_container{
         text-align: center;
         width: 100%;
         margin: 0px auto 0px auto;
-    }
-    #img_container{
-       /* margin-top: -180px;*/
     }
     .occupation{
         font-size: 2em;
@@ -161,9 +146,8 @@ footer{
 }
 
 @media only screen and (min-width: 768px) {
-    #name_container, #occupation_container, #link_container,#separate_container, #img_container, #header_container{
+    #name_container, #occupation_container, #link_container,#separate_container, #header_container{
         text-align: center;
-       /* width: 60%;*/
        margin-left: auto;
        margin-right: auto;
     }
